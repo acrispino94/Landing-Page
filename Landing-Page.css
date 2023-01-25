@@ -1,3 +1,35 @@
+body {
+    margin: 0%;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: auto;
+}
+
+.Batman,
+h5 {
+    background-color: #1f2937;
+}
+
+h4 {
+    margin-right: auto;
+    padding-left: 100px;
+}
+
+.header-small-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-right: 100px;
+}
+
+h6 {
+    padding-left: 10px;
+}
+
 .hero {
     width: 255px;
 }
@@ -5,4 +37,14 @@
 .villain {
     width: 100px;
     height: 100px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 0%;
+    padding: 25px 0;
+    color: white;
 }
