@@ -12,6 +12,7 @@ body {
 .Batman,
 h5 {
     background-color: #1f2937;
+    color: white;
 }
 
 h4 {
@@ -26,12 +27,39 @@ h4 {
     padding-right: 100px;
 }
 
+.goat {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 100px;
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+    padding-right: auto;
+}
+
+button {
+    width: 100px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+}
+
 h6 {
     padding-left: 10px;
 }
 
+.description {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 .hero {
-    width: 255px;
+    width: 355px;
+    height: 197px;
+    margin-left: auto;
 }
 
 .villain {
@@ -48,3 +76,15 @@ h6 {
     padding: 25px 0;
     color: white;
 }
+
+h1,
+p {
+    margin: 0;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
