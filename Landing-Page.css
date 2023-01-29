@@ -7,6 +7,9 @@ body {
     flex-direction: row;
     justify-content: space-around;
     margin-bottom: auto;
+    max-width: 1205px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .Batman,
@@ -32,6 +35,9 @@ h4 {
     flex-direction: row;
     justify-content: space-evenly;
     padding: 100px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .time {
@@ -45,6 +51,9 @@ button {
     background-color: #3882f6;
     color: white;
     border-radius: 5px;
+    border-style: none;
+    height: 25px;
+    margin-top: 5px;
 }
 
 h6 {
@@ -73,11 +82,14 @@ h3 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .villain {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 5px;
     outline-style: solid;
     outline-color: #3882f6;
@@ -87,10 +99,14 @@ h3 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    max-width: 760px;
     padding-top: 10px;
     padding-left: 55px;
     padding-right: 45px;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 75px;
 }
 
 p {
@@ -109,16 +125,6 @@ p {
     padding-right: 40px;
 }
 
-.footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px;
-    margin-bottom: 0%;
-    padding: 25px 0;
-    color: white;
-}
-
 h1,
 p {
     margin: 0;
@@ -130,3 +136,61 @@ h1 {
     color: #F9FAF8;
 }
 
+.quote {
+    background-color: #E5E7EB;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.knight {
+    padding-left: 175px;
+}
+
+em {
+    font-size: 36px;
+    font-style: light italic;
+    color: #566171;
+}
+
+.signup {
+    background-color: #4ea9ff;
+    max-width: 800px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.hotline,
+h4 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0%;
+}
+
+.monthly {
+    color: white;
+    padding-left: 100px;
+}
+
+.bottom {
+    height: 25px;
+    width: 85px;
+    margin: auto;
+    border-color: white;
+    border-style: solid;
+    background-color: #4ea9ff;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 0%;
+    padding: 25px 0;
+    color: white;
+}
